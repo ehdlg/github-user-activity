@@ -69,7 +69,6 @@ def get_user_action(event):
             action += f"{pr_action} the pull request {pr_title} in {repo_name}"
 
         case _:
-            print(event["type"])
             action += "Unknown action"
 
     return action
