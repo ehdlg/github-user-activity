@@ -22,7 +22,7 @@ def get_user_action(event):
             )
 
         case "ForkEvent":
-            repo_forked = event["forkee"]["full_name"]
+            repo_forked = event["payload"]["forkee"]["full_name"]
 
             action += f"Forked repository {repo_name} to {repo_forked}"
 
