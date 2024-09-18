@@ -16,6 +16,16 @@ and the goal of this program is to practice making HTTP requests and using Pytho
 
 ## Installation
 
+You can this CLI tool through PyPI using the following command:
+
+```bash
+pip install github-user-activity-ehdlg
+```
+
+Then you can use the tool with the script `github-activity-ehdlg`.
+
+You can also install and use the program following these steps:
+
 1. **Clone the repository:**
 
    ```bash
@@ -39,7 +49,7 @@ and the goal of this program is to practice making HTTP requests and using Pytho
 To run the application, use the following command:
 
 ```bash
-python main.py <username> [filter]
+python __main__.py <username> [filter]
 ```
 
 Where:
@@ -52,11 +62,11 @@ Where:
 - Display recent activity of a user without a limit:
 
   ```bash
-  python main.py example_user
+  python __main__.py example_user
   ```
 
 - Display the first 10 recent events of a user:
 
   ```bash
-  python main.py example_user 10
+  python __main__.py example_user 10
   ```
