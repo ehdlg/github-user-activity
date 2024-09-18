@@ -2,7 +2,7 @@ from sys import argv
 
 from requests import get
 
-from utils import get_user_action
+from github_user_activity_ehdlg.utils import get_user_action
 
 username = None
 
