@@ -1,1 +1,8 @@
-__pycache__/
+**__pycache__/
+data.json
+dist/
+.env
+.venv
+.nenv
+**-info/
+build/
